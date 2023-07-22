@@ -2,13 +2,14 @@
 An implementation of Euchre written to satisfy my final project requirement for CS50P
 
 # Implementation 
-This program runs a version of euchre called "screw the dealer" in which the dealer is forced to choose Trump after 7th move, this program currently does not support the "classic" version or "going-alone"
+This program runs a version of euchre called "screw the dealer" in which the dealer is forced to choose Trump after 7th move, this program currently does not support the "classic" version or a strategy known as "going-alone"
 
 # Rules
 For detailed rules on how to play euchre see https://bicyclecards.com/how-to-play/euchre/ 
 
 # TODO
 * Implement an AI to play as players 1, 2, and 3
+* Allow support for "classic" mode and "going-alone" gameplay
 * Improve the Graphics to keep images centered
 * Remove the need to interact with the pygame through the command-line
 
