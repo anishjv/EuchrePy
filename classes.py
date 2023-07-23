@@ -5,7 +5,7 @@ class Card(object):
   def __init__(self, value, suit):
       self.value = value
       self.suit = suit
-      self.images = pygame.image.load(str(self.suit) + '-' + str(self.value) + '.svg')
+      self.images = pygame.image.load("cards/" + str(self.suit) + '-' + str(self.value) + '.svg')
       self.images = pygame.transform.scale(self.images, (int(85.8), int(120)))
       self.showing = True
 

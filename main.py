@@ -10,7 +10,7 @@ pygame.display.set_caption("EchurePy")
 
 gameEngine = EuchEngine()
 
-cardBack = pygame.image.load('BACK.png')
+cardBack = pygame.image.load('cards/BACK.png')
 cardBack = pygame.transform.scale(cardBack, (int(85.8), int(120)))
 
 def renderGame(window):
@@ -98,6 +98,7 @@ while run:
       run = False
     if event.type == pygame.KEYDOWN:
       key = event.key
+
 
   gameEngine.play_game(key)
   renderGame(window)
