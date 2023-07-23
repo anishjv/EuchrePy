@@ -1,6 +1,9 @@
 # EuchrePy
 An implementation of Euchre written to satisfy my final project requirement for CS50P
 
+<img width="1020" alt="Screenshot 2023-07-22 at 10 09 51 PM" src="https://github.com/anishjv/EuchrePy/assets/119087858/11def7b5-1981-4b46-836f-246cc7adfcc0">
+
+
 # Implementation 
 This program runs a version of euchre called "screw the dealer" in which the dealer is forced to choose Trump after 7th move, this program currently does not support the "classic" version or a strategy known as "going-alone"
 
