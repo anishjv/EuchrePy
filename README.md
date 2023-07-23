@@ -17,8 +17,8 @@ For detailed rules on how to play euchre see https://bicyclecards.com/how-to-pla
 * Remove the need to interact with the pygame through the command-line
 
 # Usage
-1 Run the main.py file
-2 Play the game, following the rules of euchre 
+* Run the main.py file
+* Play the game, following the rules of euchre 
 
 **Keys**
 * P: Pass on your move
