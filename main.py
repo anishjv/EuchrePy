@@ -89,17 +89,20 @@ def renderGame(window):
       window.fill((255,255,255))
     window.blit(text_end, (x_bound -885, y_bound/2))
 
-  
-run = True
-while run:
-  key = None
-  for event in pygame.event.get():
-    if event.type == pygame.QUIT:
-      run = False
-    if event.type == pygame.KEYDOWN:
-      key = event.key
+def main(): 
+  run = True
+  while run:
+    key = None
+    for event in pygame.event.get():
+      if event.type == pygame.QUIT:
+        run = False
+      if event.type == pygame.KEYDOWN:
+        key = event.key
 
 
-  gameEngine.play_game(key)
-  renderGame(window)
-  pygame.display.update()
+    gameEngine.play_game(key)
+    renderGame(window)
+    pygame.display.update()
+
+if __name__ == "__main__":
+  main()
